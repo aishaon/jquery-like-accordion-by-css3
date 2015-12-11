@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+.wrapper{
+	width: 700px;
+	background: orange;
+	margin: 150px auto;
+}
+.wrapper h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: brown;
+	text-align: center;
+	padding: 20px 0px;
+}
+.accordion{
+	width: 650px;
+	padding: 25px;
+}
+.single-accordion{
+	height: 35px;
+	overflow: hidden;
+	background: #aaa222;
+	margin-bottom: 5px;
+	padding: 0px 10px;
+	-webkit-transition: all 1s;
+}
+.single-accordion:hover{
+	height: 120px;
+	border-radius: 10px;
+	-webkit-transition: all 1s;
+}
+.single-accordion h2:hover{
+	cursor: pointer;
+}
+.single-accordion h2{
+	color: green;
+	font-size: 30px;
+	font-variant: small-caps;
+	line-height: 35px;
+}
+.single-accordion p{
+	line-height: 25px;
+	color: #333;
+	text-align: justify;
+	padding: 10px;
+}
