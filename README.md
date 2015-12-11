@@ -1,4 +1,3 @@
-jquery-liked-accordion-by-css3
-==============================
+#jQuery Liked Accordion By CSS3
 
-A jquery liked accordion created by using css3 transition
+A jQuery liked accordion created by using css3 transition.
